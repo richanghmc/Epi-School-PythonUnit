@@ -6,3 +6,12 @@ def primes_below(n):
         if is_prime(i):
             primes.append(i)
     return primes
+
+s = ["a","b","c"]
+print(s)
+s[0:2] = "f"
+print(s)
+
+a = "abc"
+print(list(a))
+print("".join(a))
